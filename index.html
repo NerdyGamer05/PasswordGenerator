@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Password Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Rubik:ital@1&display=swap" rel="stylesheet"> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Password Generator</h1>
+  <h3>This password generator uses dictionary password encryption and <a style="" href='https://security.stackexchange.com/questions/158326/what-is-a-password-mangler'>mangling</a> to create strong passwords.<hr>Please use the field below to input words to use in your password.<br>The following are supported separators: <b>Commas, newlines, semi-colons, and spaces</b></h3>
+  <textarea id="words"></textarea>
+  <button id="generateButton">Generate</button>
+  <p id="password">Generated password here.</p>
+  <script src="index.js"></script>
+</body>
+
+</html>

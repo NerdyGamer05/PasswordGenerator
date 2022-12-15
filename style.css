@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lucida Console';
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Monaco';
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+a {
+  color: red;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 5% 0 7% 0;
+}
+
+textarea {
+  margin: auto;
+  display: block;
+  width: 95%;
+  height: 40%;
+  resize: none;
+  font-size: 2em;
+  border: 5px solid red;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#generateButton {
+  margin: auto;
+  margin-top: 1%;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  border: 1.5px solid black;
+  background-color: #2f7ff7;
+  font-size: 18px;
+  padding: 6px 12px;
+  transition-duration: 0.4s;
+}
+
+#generateButton:hover {
+  background-color: #185ec7;
+  cursor: pointer;
+}
+
+#password {
+  text-align: center;
+  padding: 0.5% 0;
+  font-family: 'Copperplate';
+  font-size: 1.5em;
+}
