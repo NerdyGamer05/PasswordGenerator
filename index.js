@@ -1,5 +1,3 @@
-console.log()
-
 const randomSymbol = () => {
   const symbols = `~\`!@#$%^&*()_-+={[}]|\:;"'<,>.?/`;
   return symbols[Math.floor(Math.random() * symbols.length)];
@@ -41,15 +39,8 @@ const generatePassword = (words) => {
   return password.slice(0, -1).join('')
 }
 
-// console.log(generatePassword([
-//   'Jai',
-//   'Minecraft',
-//   'Soccer'
-// ]));
-
 const generateButton = document.getElementById('generateButton');
 generateButton.addEventListener('click', () => {
-  const input = document.getElementById('words').value.trim().replace(/[\;\n\s]/g, ',').split(',');
-  console.log(input);
+  const input = document.getElementById('words').value.trim().replace(/[\;\n\s]/g, ',').split(',')
   document.getElementById('password').innerText = generatePassword(input);
 });
